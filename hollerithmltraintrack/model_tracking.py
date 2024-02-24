@@ -1,43 +1,62 @@
-# hollerithmltraintrack/model_tracking.py
 import time
 from contextlib import contextmanager
 
+from sklearn.base import clone
+
 
 class ModelTracker:
+    """
+    Tracks and records details about the training process of machine learning models,
+    including preprocessing feature analysis and capturing model parameters.
+    """
+    
     def __init__(self):
+        """
+        Initializes the tracker with an empty list for tracked models' information.
+        """
         self.tracked_models_info = []
 
-    @contextmanager
-    def track_model(self, model, X_train, y_train):
+    def analyze_features(self, preprocessor):
         """
-        records the model, training data
+        Analyzes and counts numeric and categorical features based on the preprocessor configuration.
+        """
+        numeric_features_count = len(preprocessor.transformers_[0][2])
+        categorical_features_count = len(preprocessor.transformers_[1][2])
+        return numeric_features_count, categorical_features_count
 
-        params:
-            - model: the model to be tracked
-            - X_train: the training data that was used to train the model
-            - y_train: the target values that were used to train the model
+    @contextmanager
+    def track_model(self, model, X_train, y_train, preprocessor):
+        """
+        Context manager that tracks the model training process, including timing and capturing model parameters.
         """
         start_time = time.time()
-        model_type = type(model).__name__
-        features_count = X_train.shape[1]
-        samples_count = X_train.shape[0]
-        model_params = model.get_params()
 
-        yield
-        
+        model_clone = clone(model)
+        model_clone.fit(X_train, y_train)
+
         end_time = time.time()
         training_duration = end_time - start_time
 
-        self.tracked_models_info.append({
-            "model_type": model_type,
-            "features_count": features_count,
-            "samples_count": samples_count,
-            "model_params": model_params,
-            "training_duration": training_duration
-        })
+        numeric_features_count, categorical_features_count = self.analyze_features(preprocessor)
 
-        print(f"Tracking finished for model: {model_type}")
+        tracked_info = {
+            "model_type": type(model_clone).__name__,
+            "model_params": model_clone.get_params(),
+            "training_duration": training_duration,
+            "numeric_features_count": numeric_features_count,
+            "categorical_features_count": categorical_features_count,
+        }
+
+        self.tracked_models_info.append(tracked_info)
+
+        try:
+            yield
+        finally:
+            pass
+
 
     def get_tracked_info(self):
+        """
+        Returns the information collected during model training.
+        """
         return self.tracked_models_info
-
