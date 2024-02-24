@@ -38,10 +38,14 @@ class ModelTracker:
         training_duration = end_time - start_time
 
         numeric_features_count, categorical_features_count = self.analyze_features(preprocessor)
+        model_params = model_clone.get_params()
+
+        model_params_transformed = {f"model_params_{k}": v for k, v in model_params.items()}
+        
 
         tracked_info = {
             "model_type": type(model_clone).__name__,
-            "model_params": model_clone.get_params(),
+            **model_params_transformed,
             "training_duration": training_duration,
             "numeric_features_count": numeric_features_count,
             "categorical_features_count": categorical_features_count,
