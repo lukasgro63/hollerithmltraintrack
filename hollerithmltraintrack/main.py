@@ -1,8 +1,11 @@
+import logging
 from contextlib import contextmanager
 
 from .csv_exporter import CSVExporter
 from .model_tracking import ModelTracker
 
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 class MLModelTrackerInterface:
     def __init__(self, default_filename="model_tracking_data.csv"):
