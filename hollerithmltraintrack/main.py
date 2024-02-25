@@ -21,7 +21,7 @@ class MLModelTrackerInterface:
         with self.model_tracker.track_model(model, X_train, y_train, preprocessor) as _:
             yield
 
-        tracked_info = self.get_tracked_info()
+        tracked_info = self.model_tracker.get_tracked_info()
         self.csv_exporter.export_to_csv(tracked_info)
 
     def get_tracked_info(self):
