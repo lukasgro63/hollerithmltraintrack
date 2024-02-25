@@ -1,6 +1,4 @@
 # HollerithMLTrainTrack
-
-# HollerithMLTrainTrack
  is a Python library designed to track and analyze machine learning model training sessions, integrating key metrics such as training duration, feature analysis, and environmental impact metrics through CodeCarbon integration. It aims to provide developers and researchers with insights into their model's performance and its carbon footprint, enhancing transparency and accountability in ML projects.
 
 ## Installation
