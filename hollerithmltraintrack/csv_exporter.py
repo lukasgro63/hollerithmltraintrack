@@ -1,7 +1,9 @@
+import logging
 import os
 
 import pandas as pd
 
+logger = logging.getLogger(__name__)
 
 class CSVExporter:
     """
@@ -18,7 +20,10 @@ class CSVExporter:
         """
         Exports the tracked model training data to a CSV file.
         """
-        df = pd.DataFrame(tracked_data)
-        full_path = os.path.join(os.getcwd(), self.filename)
-        df.to_csv(full_path, index=False)
-        print(f"Data exported successfully to {full_path}")
+        try:
+            df = pd.DataFrame(tracked_data)
+            full_path = os.path.join(os.getcwd(), self.filename)
+            df.to_csv(full_path, index=False)
+            logger.info(f"Data successfully exported to {full_path}")
+        except Exception as e:
+            logger.error(f"Error when exporting the data: {e}")
