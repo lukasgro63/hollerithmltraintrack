@@ -42,6 +42,7 @@ model = RandomForestClassifier(n_estimators=5, max_depth=2)
 tracker_interface = MLModelTrackerInterface()
 
 # Track the model training with the processed training data
+# TODO: Replace "custom_file_name.csv" with the desired filename
 with tracker_interface.track_training(model, X_train_processed, y_train, preprocessor, filename="custom_file_name.csv"):
     model.fit(X_train_processed, y_train)
 
