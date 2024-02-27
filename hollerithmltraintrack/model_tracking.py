@@ -7,6 +7,7 @@ import pandas as pd
 from sklearn.base import clone
 
 from .energy_tracker import EnergyTracker
+from .feature_analyzer import FeatureAnalyzer
 
 logger = logging.getLogger(__name__)
 
@@ -18,24 +19,15 @@ class ModelTracker:
     """
     def __init__(self):
         self.tracked_models_info = []
+        self.feature_analyzer = FeatureAnalyzer()
         self.energy_tracker = EnergyTracker()
 
-    def analyze_features(self, preprocessor):
-        """
-        Analyzes and counts numeric and categorical features based on the preprocessor configuration.
-        """
-        try:
-            numeric_features_count = len(preprocessor.transformers_[0][2])
-            categorical_features_count = len(preprocessor.transformers_[1][2])
-            return numeric_features_count, categorical_features_count
-        except Exception as e:
-            logger.error(f"Error when analyzing the features: {e}")
-            return 0, 0
 
     @contextmanager
-    def track_model(self, model, X_train, y_train, preprocessor):
+    def track_model(self, model, X_train, y_train, preprocessor=None, num_features_provided=None, cat_features_provided=None):
         """
         Context manager that tracks the model training process, including timing and capturing model parameters.
+        Falls back to automatic feature analysis if no preprocessor info is provided.
         """
         logger.info("Start tracking model training.")
         try:
@@ -46,11 +38,17 @@ class ModelTracker:
             end_time = time.time()
             
             emissions_data = self.energy_tracker.stop_and_extract_data()
-
             training_duration = end_time - start_time
-            numeric_features_count, categorical_features_count = self.analyze_features(preprocessor)
+
+            if num_features_provided is not None and cat_features_provided is not None:
+                numeric_features_count = num_features_provided
+                categorical_features_count = cat_features_provided
+            elif preprocessor:
+                numeric_features_count, categorical_features_count = self.feature_analyzer.analyze_features_with_preprocessor(preprocessor)
+            else:
+                numeric_features_count, categorical_features_count = self.feature_analyzer.analyze_features(X_train)
+
             model_params_transformed = {f"model_params_{k}": v for k, v in model_clone.get_params().items()}
-            
             tracked_info = {
                 "model_type": type(model_clone).__name__,
                 **model_params_transformed,
