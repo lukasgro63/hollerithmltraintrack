@@ -5,431 +5,431 @@ Boot time: Tue Feb 27 17:08:14 2024
 
 
 
-*** Sampled system activity (Tue Feb 27 17:22:40 2024 +0100) (104.12ms elapsed) ***
+*** Sampled system activity (Tue Feb 27 17:31:32 2024 +0100) (104.07ms elapsed) ***
 
 
 **** Processor usage ****
 
-E-Cluster HW active frequency: 1871 MHz
-E-Cluster HW active residency:  35.45% (600 MHz:   0% 972 MHz:  18% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  82%)
-E-Cluster idle residency:  64.55%
-CPU 0 frequency: 1966 MHz
-CPU 0 active residency:  19.98% (600 MHz:   0% 972 MHz: 1.8% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  18%)
-CPU 0 idle residency:  80.02%
-CPU 1 frequency: 1999 MHz
-CPU 1 active residency:  16.44% (600 MHz:   0% 972 MHz: .98% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  15%)
-CPU 1 idle residency:  83.56%
-CPU 2 frequency: 1933 MHz
-CPU 2 active residency:  12.59% (600 MHz:   0% 972 MHz: 1.5% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  11%)
-CPU 2 idle residency:  87.41%
-CPU 3 frequency: 1975 MHz
-CPU 3 active residency:  11.96% (600 MHz:   0% 972 MHz: .97% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  11%)
-CPU 3 idle residency:  88.04%
+E-Cluster HW active frequency: 1155 MHz
+E-Cluster HW active residency:  54.26% (600 MHz:   0% 972 MHz:  83% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  17%)
+E-Cluster idle residency:  45.74%
+CPU 0 frequency: 1116 MHz
+CPU 0 active residency:  27.84% (600 MHz:   0% 972 MHz:  24% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz: 3.7%)
+CPU 0 idle residency:  72.16%
+CPU 1 frequency: 1109 MHz
+CPU 1 active residency:  25.48% (600 MHz:   0% 972 MHz:  22% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz: 3.2%)
+CPU 1 idle residency:  74.52%
+CPU 2 frequency: 1120 MHz
+CPU 2 active residency:  23.93% (600 MHz:   0% 972 MHz:  21% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz: 3.2%)
+CPU 2 idle residency:  76.07%
+CPU 3 frequency: 1070 MHz
+CPU 3 active residency:  40.46% (600 MHz:   0% 972 MHz:  37% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz: 3.6%)
+CPU 3 idle residency:  59.54%
 
-P-Cluster HW active frequency: 3098 MHz
-P-Cluster HW active residency:  99.80% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz: .08% 2772 MHz: .04% 2988 MHz: 8.1% 3096 MHz:  82% 3144 MHz:   0% 3204 MHz: 9.9%)
-P-Cluster idle residency:   0.20%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  77.56% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  78%)
-CPU 4 idle residency:  22.44%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  51.15% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  51%)
-CPU 5 idle residency:  48.85%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  45.77% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  46%)
-CPU 6 idle residency:  54.23%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:  18.62% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  19%)
-CPU 7 idle residency:  81.38%
+P-Cluster HW active frequency: 1560 MHz
+P-Cluster HW active residency:   6.95% (600 MHz:  43% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz: 5.5% 1728 MHz:  13% 1956 MHz: 8.0% 2184 MHz: 6.2% 2388 MHz: 4.4% 2592 MHz: 3.8% 2772 MHz:   0% 2988 MHz: .26% 3096 MHz: .41% 3144 MHz: 9.9% 3204 MHz: 5.0%)
+P-Cluster idle residency:  93.05%
+CPU 4 frequency: 1999 MHz
+CPU 4 active residency:   4.04% (600 MHz: .52% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz: 1.0% 1728 MHz: .52% 1956 MHz: .46% 2184 MHz: .23% 2388 MHz: .20% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz: .65% 3204 MHz: .44%)
+CPU 4 idle residency:  95.96%
+CPU 5 frequency: 2476 MHz
+CPU 5 active residency:   3.61% (600 MHz: .34% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz: .36% 1728 MHz: .25% 1956 MHz: .38% 2184 MHz: .18% 2388 MHz: .05% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz: .91% 3204 MHz: 1.1%)
+CPU 5 idle residency:  96.39%
+CPU 6 frequency: 1917 MHz
+CPU 6 active residency:   0.67% (600 MHz: .04% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz: .03% 1728 MHz: .22% 1956 MHz: .21% 2184 MHz: .10% 2388 MHz: .01% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz: .06% 3204 MHz:   0%)
+CPU 6 idle residency:  99.33%
+CPU 7 frequency: 2303 MHz
+CPU 7 active residency:   0.30% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz: .00% 1728 MHz: .00% 1956 MHz: .00% 2184 MHz: .14% 2388 MHz: .13% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz: .01% 3204 MHz:   0%)
+CPU 7 idle residency:  99.70%
 
-CPU Power: 7559 mW
-GPU Power: 0 mW
+CPU Power: 240 mW
+GPU Power: 10 mW
 ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 7559 mW
+Combined Power (CPU + GPU + ANE): 250 mW
 
 
-*** Sampled system activity (Tue Feb 27 17:22:40 2024 +0100) (104.44ms elapsed) ***
-
-
-**** Processor usage ****
-
-E-Cluster HW active frequency: 1970 MHz
-E-Cluster HW active residency:  67.82% (600 MHz:   0% 972 MHz: 8.6% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  91%)
-E-Cluster idle residency:  32.18%
-CPU 0 frequency: 2027 MHz
-CPU 0 active residency:  53.14% (600 MHz:   0% 972 MHz: 1.8% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  51%)
-CPU 0 idle residency:  46.86%
-CPU 1 frequency: 2018 MHz
-CPU 1 active residency:  38.91% (600 MHz:   0% 972 MHz: 1.6% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  37%)
-CPU 1 idle residency:  61.09%
-CPU 2 frequency: 2039 MHz
-CPU 2 active residency:  42.80% (600 MHz:   0% 972 MHz: .98% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  42%)
-CPU 2 idle residency:  57.20%
-CPU 3 frequency: 2054 MHz
-CPU 3 active residency:  31.45% (600 MHz:   0% 972 MHz: .30% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  31%)
-CPU 3 idle residency:  68.55%
-
-P-Cluster HW active frequency: 3076 MHz
-P-Cluster HW active residency: 100.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz: .50% 2772 MHz: 2.2% 2988 MHz:  25% 3096 MHz:  57% 3144 MHz:   0% 3204 MHz:  16%)
-P-Cluster idle residency:   0.00%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  73.25% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  73%)
-CPU 4 idle residency:  26.75%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  70.49% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  70%)
-CPU 5 idle residency:  29.51%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  46.77% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  47%)
-CPU 6 idle residency:  53.23%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:  23.31% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  23%)
-CPU 7 idle residency:  76.69%
-
-CPU Power: 8014 mW
-GPU Power: 0 mW
-ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 8014 mW
-
-
-*** Sampled system activity (Tue Feb 27 17:22:40 2024 +0100) (106.81ms elapsed) ***
+*** Sampled system activity (Tue Feb 27 17:31:32 2024 +0100) (105.75ms elapsed) ***
 
 
 **** Processor usage ****
 
-E-Cluster HW active frequency: 1972 MHz
-E-Cluster HW active residency:  60.82% (600 MHz:   0% 972 MHz: 8.4% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  92%)
-E-Cluster idle residency:  39.18%
-CPU 0 frequency: 2001 MHz
-CPU 0 active residency:  38.79% (600 MHz:   0% 972 MHz: 2.3% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  37%)
-CPU 0 idle residency:  61.21%
-CPU 1 frequency: 2008 MHz
-CPU 1 active residency:  26.29% (600 MHz:   0% 972 MHz: 1.4% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  25%)
-CPU 1 idle residency:  73.71%
-CPU 2 frequency: 2018 MHz
-CPU 2 active residency:  20.83% (600 MHz:   0% 972 MHz: .87% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  20%)
-CPU 2 idle residency:  79.17%
-CPU 3 frequency: 1891 MHz
-CPU 3 active residency:  16.76% (600 MHz:   0% 972 MHz: 2.7% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  14%)
-CPU 3 idle residency:  83.24%
+E-Cluster HW active frequency: 1399 MHz
+E-Cluster HW active residency:  97.72% (600 MHz:   0% 972 MHz:  61% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  39%)
+E-Cluster idle residency:   2.28%
+CPU 0 frequency: 1383 MHz
+CPU 0 active residency:  59.48% (600 MHz:   0% 972 MHz:  37% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  22%)
+CPU 0 idle residency:  40.52%
+CPU 1 frequency: 1348 MHz
+CPU 1 active residency:  32.96% (600 MHz:   0% 972 MHz:  22% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  11%)
+CPU 1 idle residency:  67.04%
+CPU 2 frequency: 1386 MHz
+CPU 2 active residency:  34.86% (600 MHz:   0% 972 MHz:  22% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  13%)
+CPU 2 idle residency:  65.14%
+CPU 3 frequency: 1284 MHz
+CPU 3 active residency:  41.77% (600 MHz:   0% 972 MHz:  30% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  12%)
+CPU 3 idle residency:  58.23%
 
-P-Cluster HW active frequency: 3100 MHz
-P-Cluster HW active residency:  99.91% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz: .10% 2772 MHz:   0% 2988 MHz:  10% 3096 MHz:  75% 3144 MHz:   0% 3204 MHz:  14%)
-P-Cluster idle residency:   0.09%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  71.37% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  71%)
-CPU 4 idle residency:  28.63%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  66.16% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  66%)
-CPU 5 idle residency:  33.84%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  42.78% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  43%)
-CPU 6 idle residency:  57.22%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:  13.30% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  13%)
-CPU 7 idle residency:  86.70%
+P-Cluster HW active frequency: 1261 MHz
+P-Cluster HW active residency:  50.37% (600 MHz:  24% 828 MHz:   0% 1056 MHz:  11% 1284 MHz:  18% 1500 MHz:  27% 1728 MHz: 9.4% 1956 MHz:  10% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+P-Cluster idle residency:  49.63%
+CPU 4 frequency: 1522 MHz
+CPU 4 active residency:  47.25% (600 MHz: .31% 828 MHz:   0% 1056 MHz: 5.5% 1284 MHz:  11% 1500 MHz:  13% 1728 MHz: 7.5% 1956 MHz: 9.9% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 4 idle residency:  52.75%
+CPU 5 frequency: 1516 MHz
+CPU 5 active residency:  43.22% (600 MHz: .04% 828 MHz:   0% 1056 MHz: 5.8% 1284 MHz:  11% 1500 MHz: 9.8% 1728 MHz: 7.2% 1956 MHz: 9.0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 5 idle residency:  56.78%
+CPU 6 frequency: 1532 MHz
+CPU 6 active residency:  44.72% (600 MHz:   0% 828 MHz:   0% 1056 MHz: 5.4% 1284 MHz:  11% 1500 MHz: 9.6% 1728 MHz: 9.3% 1956 MHz: 9.1% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 6 idle residency:  55.28%
+CPU 7 frequency: 1395 MHz
+CPU 7 active residency:  32.38% (600 MHz: .09% 828 MHz:   0% 1056 MHz: 5.6% 1284 MHz:  11% 1500 MHz: 9.3% 1728 MHz: 5.4% 1956 MHz: .76% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 idle residency:  67.62%
 
-CPU Power: 7733 mW
-GPU Power: 0 mW
-ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 7733 mW
-
-
-*** Sampled system activity (Tue Feb 27 17:22:40 2024 +0100) (107.46ms elapsed) ***
-
-
-**** Processor usage ****
-
-E-Cluster HW active frequency: 1990 MHz
-E-Cluster HW active residency:  47.32% (600 MHz:   0% 972 MHz: 6.8% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  93%)
-E-Cluster idle residency:  52.68%
-CPU 0 frequency: 2003 MHz
-CPU 0 active residency:  23.43% (600 MHz:   0% 972 MHz: 1.3% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  22%)
-CPU 0 idle residency:  76.57%
-CPU 1 frequency: 2004 MHz
-CPU 1 active residency:  24.20% (600 MHz:   0% 972 MHz: 1.3% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  23%)
-CPU 1 idle residency:  75.80%
-CPU 2 frequency: 1969 MHz
-CPU 2 active residency:  13.97% (600 MHz:   0% 972 MHz: 1.2% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  13%)
-CPU 2 idle residency:  86.03%
-CPU 3 frequency: 1990 MHz
-CPU 3 active residency:  17.56% (600 MHz:   0% 972 MHz: 1.2% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  16%)
-CPU 3 idle residency:  82.44%
-
-P-Cluster HW active frequency: 3091 MHz
-P-Cluster HW active residency:  99.82% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz: .20% 2772 MHz:   0% 2988 MHz: 8.9% 3096 MHz:  86% 3144 MHz:   0% 3204 MHz: 5.2%)
-P-Cluster idle residency:   0.18%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  63.17% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  63%)
-CPU 4 idle residency:  36.83%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  64.52% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  65%)
-CPU 5 idle residency:  35.48%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  53.05% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  53%)
-CPU 6 idle residency:  46.95%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:  19.65% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  20%)
-CPU 7 idle residency:  80.35%
-
-CPU Power: 7993 mW
-GPU Power: 0 mW
-ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 7993 mW
-
-
-*** Sampled system activity (Tue Feb 27 17:22:40 2024 +0100) (109.97ms elapsed) ***
-
-
-**** Processor usage ****
-
-E-Cluster HW active frequency: 1939 MHz
-E-Cluster HW active residency:  64.66% (600 MHz:   0% 972 MHz:  11% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  89%)
-E-Cluster idle residency:  35.34%
-CPU 0 frequency: 1953 MHz
-CPU 0 active residency:  47.33% (600 MHz:   0% 972 MHz: 4.8% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  43%)
-CPU 0 idle residency:  52.67%
-CPU 1 frequency: 1942 MHz
-CPU 1 active residency:  32.12% (600 MHz:   0% 972 MHz: 3.6% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  29%)
-CPU 1 idle residency:  67.88%
-CPU 2 frequency: 1951 MHz
-CPU 2 active residency:  34.43% (600 MHz:   0% 972 MHz: 3.6% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  31%)
-CPU 2 idle residency:  65.57%
-CPU 3 frequency: 1951 MHz
-CPU 3 active residency:  25.55% (600 MHz:   0% 972 MHz: 2.6% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  23%)
-CPU 3 idle residency:  74.45%
-
-P-Cluster HW active frequency: 3111 MHz
-P-Cluster HW active residency:  99.30% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz: .35% 2772 MHz: .04% 2988 MHz: 9.7% 3096 MHz:  64% 3144 MHz:   0% 3204 MHz:  26%)
-P-Cluster idle residency:   0.70%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  53.05% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  53%)
-CPU 4 idle residency:  46.95%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  67.75% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  68%)
-CPU 5 idle residency:  32.25%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  27.62% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  28%)
-CPU 6 idle residency:  72.38%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:  17.42% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  17%)
-CPU 7 idle residency:  82.58%
-
-CPU Power: 6538 mW
-GPU Power: 0 mW
-ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 6538 mW
-
-
-*** Sampled system activity (Tue Feb 27 17:22:40 2024 +0100) (108.06ms elapsed) ***
-
-
-**** Processor usage ****
-
-E-Cluster HW active frequency: 1804 MHz
-E-Cluster HW active residency:  31.68% (600 MHz:   0% 972 MHz:  22% 1332 MHz: 2.0% 1704 MHz:   0% 2064 MHz:  76%)
-E-Cluster idle residency:  68.32%
-CPU 0 frequency: 1838 MHz
-CPU 0 active residency:  18.69% (600 MHz:   0% 972 MHz: 3.0% 1332 MHz: 1.4% 1704 MHz:   0% 2064 MHz:  14%)
-CPU 0 idle residency:  81.31%
-CPU 1 frequency: 1876 MHz
-CPU 1 active residency:  13.87% (600 MHz:   0% 972 MHz: 2.1% 1332 MHz: .44% 1704 MHz:   0% 2064 MHz:  11%)
-CPU 1 idle residency:  86.13%
-CPU 2 frequency: 1902 MHz
-CPU 2 active residency:  13.43% (600 MHz:   0% 972 MHz: 1.7% 1332 MHz: .44% 1704 MHz:   0% 2064 MHz:  11%)
-CPU 2 idle residency:  86.57%
-CPU 3 frequency: 1791 MHz
-CPU 3 active residency:  12.25% (600 MHz:   0% 972 MHz: 2.4% 1332 MHz: 1.0% 1704 MHz:   0% 2064 MHz: 8.9%)
-CPU 3 idle residency:  87.75%
-
-P-Cluster HW active frequency: 3095 MHz
-P-Cluster HW active residency: 100.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz: 6.5% 3096 MHz:  88% 3144 MHz:   0% 3204 MHz: 5.4%)
-P-Cluster idle residency:   0.00%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  72.73% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  73%)
-CPU 4 idle residency:  27.27%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  42.38% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  42%)
-CPU 5 idle residency:  57.62%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  30.51% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  31%)
-CPU 6 idle residency:  69.49%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:  52.84% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  53%)
-CPU 7 idle residency:  47.16%
-
-CPU Power: 7968 mW
-GPU Power: 0 mW
-ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 7968 mW
-
-
-*** Sampled system activity (Tue Feb 27 17:22:40 2024 +0100) (107.65ms elapsed) ***
-
-
-**** Processor usage ****
-
-E-Cluster HW active frequency: 1881 MHz
-E-Cluster HW active residency:  25.54% (600 MHz:   0% 972 MHz:  16% 1332 MHz: .51% 1704 MHz:   0% 2064 MHz:  83%)
-E-Cluster idle residency:  74.46%
-CPU 0 frequency: 1996 MHz
-CPU 0 active residency:  13.82% (600 MHz:   0% 972 MHz: .85% 1332 MHz: .03% 1704 MHz:   0% 2064 MHz:  13%)
-CPU 0 idle residency:  86.18%
-CPU 1 frequency: 1939 MHz
-CPU 1 active residency:  16.18% (600 MHz:   0% 972 MHz: 1.5% 1332 MHz: .51% 1704 MHz:   0% 2064 MHz:  14%)
-CPU 1 idle residency:  83.82%
-CPU 2 frequency: 2023 MHz
-CPU 2 active residency:   9.51% (600 MHz:   0% 972 MHz: .35% 1332 MHz: .01% 1704 MHz:   0% 2064 MHz: 9.1%)
-CPU 2 idle residency:  90.49%
-CPU 3 frequency: 2014 MHz
-CPU 3 active residency:   7.72% (600 MHz:   0% 972 MHz: .35% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz: 7.4%)
-CPU 3 idle residency:  92.28%
-
-P-Cluster HW active frequency: 3088 MHz
-P-Cluster HW active residency: 100.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz: 8.6% 3096 MHz:  90% 3144 MHz:   0% 3204 MHz: 1.2%)
-P-Cluster idle residency:   0.00%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  68.53% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  69%)
-CPU 4 idle residency:  31.47%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  68.25% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  68%)
-CPU 5 idle residency:  31.75%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  50.99% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  51%)
-CPU 6 idle residency:  49.01%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:  17.68% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  18%)
-CPU 7 idle residency:  82.32%
-
-CPU Power: 8203 mW
+CPU Power: 1872 mW
 GPU Power: 9 mW
 ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 8212 mW
+Combined Power (CPU + GPU + ANE): 1882 mW
 
 
-*** Sampled system activity (Tue Feb 27 17:22:40 2024 +0100) (107.97ms elapsed) ***
-
-
-**** Processor usage ****
-
-E-Cluster HW active frequency: 1821 MHz
-E-Cluster HW active residency:  20.22% (600 MHz:   0% 972 MHz:  22% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  78%)
-E-Cluster idle residency:  79.78%
-CPU 0 frequency: 1902 MHz
-CPU 0 active residency:  12.14% (600 MHz:   0% 972 MHz: 1.8% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  10%)
-CPU 0 idle residency:  87.86%
-CPU 1 frequency: 1913 MHz
-CPU 1 active residency:   9.41% (600 MHz:   0% 972 MHz: 1.3% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz: 8.1%)
-CPU 1 idle residency:  90.59%
-CPU 2 frequency: 1671 MHz
-CPU 2 active residency:   2.48% (600 MHz:   0% 972 MHz: .89% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz: 1.6%)
-CPU 2 idle residency:  97.52%
-CPU 3 frequency: 2060 MHz
-CPU 3 active residency:   1.42% (600 MHz:   0% 972 MHz: .01% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz: 1.4%)
-CPU 3 idle residency:  98.58%
-
-P-Cluster HW active frequency: 3094 MHz
-P-Cluster HW active residency: 100.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz: 4.3% 3096 MHz:  93% 3144 MHz:   0% 3204 MHz: 2.6%)
-P-Cluster idle residency:   0.00%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  62.24% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  62%)
-CPU 4 idle residency:  37.76%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  67.86% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  68%)
-CPU 5 idle residency:  32.14%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  37.02% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  37%)
-CPU 6 idle residency:  62.98%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:  31.26% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  31%)
-CPU 7 idle residency:  68.74%
-
-CPU Power: 8058 mW
-GPU Power: 0 mW
-ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 8058 mW
-
-
-*** Sampled system activity (Tue Feb 27 17:22:41 2024 +0100) (107.00ms elapsed) ***
+*** Sampled system activity (Tue Feb 27 17:31:32 2024 +0100) (104.94ms elapsed) ***
 
 
 **** Processor usage ****
 
-E-Cluster HW active frequency: 2008 MHz
-E-Cluster HW active residency:  99.17% (600 MHz:   0% 972 MHz: 3.6% 1332 MHz: .43% 1704 MHz: 3.9% 2064 MHz:  92%)
-E-Cluster idle residency:   0.83%
-CPU 0 frequency: 1946 MHz
-CPU 0 active residency:  47.24% (600 MHz:   0% 972 MHz: 3.5% 1332 MHz: .43% 1704 MHz: 3.9% 2064 MHz:  39%)
-CPU 0 idle residency:  52.76%
-CPU 1 frequency: 2046 MHz
-CPU 1 active residency:  34.94% (600 MHz:   0% 972 MHz: .45% 1332 MHz: .03% 1704 MHz: .34% 2064 MHz:  34%)
-CPU 1 idle residency:  65.06%
-CPU 2 frequency: 2051 MHz
-CPU 2 active residency:  39.66% (600 MHz:   0% 972 MHz: .35% 1332 MHz: .01% 1704 MHz: .31% 2064 MHz:  39%)
-CPU 2 idle residency:  60.34%
-CPU 3 frequency: 2011 MHz
-CPU 3 active residency:  49.42% (600 MHz:   0% 972 MHz: .82% 1332 MHz: .43% 1704 MHz: 3.9% 2064 MHz:  44%)
-CPU 3 idle residency:  50.58%
+E-Cluster HW active frequency: 1212 MHz
+E-Cluster HW active residency:  99.56% (600 MHz:   0% 972 MHz:  73% 1332 MHz: 7.5% 1704 MHz:   0% 2064 MHz:  19%)
+E-Cluster idle residency:   0.44%
+CPU 0 frequency: 1210 MHz
+CPU 0 active residency:  49.37% (600 MHz:   0% 972 MHz:  37% 1332 MHz: 2.7% 1704 MHz:   0% 2064 MHz: 9.9%)
+CPU 0 idle residency:  50.63%
+CPU 1 frequency: 1308 MHz
+CPU 1 active residency:  41.81% (600 MHz:   0% 972 MHz:  24% 1332 MHz: 7.5% 1704 MHz:   0% 2064 MHz:  10%)
+CPU 1 idle residency:  58.19%
+CPU 2 frequency: 1131 MHz
+CPU 2 active residency:  52.16% (600 MHz:   0% 972 MHz:  43% 1332 MHz: 3.0% 1704 MHz:   0% 2064 MHz: 6.6%)
+CPU 2 idle residency:  47.84%
+CPU 3 frequency: 1200 MHz
+CPU 3 active residency:  38.85% (600 MHz:   0% 972 MHz:  28% 1332 MHz: 4.1% 1704 MHz:   0% 2064 MHz: 6.8%)
+CPU 3 idle residency:  61.15%
 
-P-Cluster HW active frequency: 3147 MHz
-P-Cluster HW active residency:  99.03% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz: .02% 2772 MHz:   0% 2988 MHz: 7.5% 3096 MHz:  38% 3144 MHz:   0% 3204 MHz:  54%)
-P-Cluster idle residency:   0.97%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  78.90% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  79%)
-CPU 4 idle residency:  21.10%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  32.42% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  32%)
-CPU 5 idle residency:  67.58%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  23.07% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  23%)
-CPU 6 idle residency:  76.93%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:   7.54% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz: 7.5%)
-CPU 7 idle residency:  92.46%
+P-Cluster HW active frequency: 1221 MHz
+P-Cluster HW active residency:   8.45% (600 MHz:  39% 828 MHz:   0% 1056 MHz: 6.7% 1284 MHz: 8.0% 1500 MHz:  11% 1728 MHz:  19% 1956 MHz:  16% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+P-Cluster idle residency:  91.55%
+CPU 4 frequency: 1512 MHz
+CPU 4 active residency:   6.84% (600 MHz: .55% 828 MHz:   0% 1056 MHz: 1.6% 1284 MHz: .42% 1500 MHz: .75% 1728 MHz: .98% 1956 MHz: 2.5% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 4 idle residency:  93.16%
+CPU 5 frequency: 1338 MHz
+CPU 5 active residency:   1.64% (600 MHz: .29% 828 MHz:   0% 1056 MHz: .37% 1284 MHz: .07% 1500 MHz: .29% 1728 MHz: .46% 1956 MHz: .15% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 5 idle residency:  98.36%
+CPU 6 frequency: 1281 MHz
+CPU 6 active residency:   1.33% (600 MHz: .04% 828 MHz:   0% 1056 MHz: .49% 1284 MHz: .46% 1500 MHz: .07% 1728 MHz: .26% 1956 MHz: .01% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 6 idle residency:  98.67%
+CPU 7 frequency: 1644 MHz
+CPU 7 active residency:   0.51% (600 MHz: .08% 828 MHz:   0% 1056 MHz: .02% 1284 MHz: .01% 1500 MHz: .00% 1728 MHz: .11% 1956 MHz: .29% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 idle residency:  99.49%
 
-CPU Power: 5841 mW
-GPU Power: 0 mW
+CPU Power: 248 mW
+GPU Power: 10 mW
 ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 5841 mW
+Combined Power (CPU + GPU + ANE): 257 mW
 
 
-*** Sampled system activity (Tue Feb 27 17:22:41 2024 +0100) (106.86ms elapsed) ***
+*** Sampled system activity (Tue Feb 27 17:31:32 2024 +0100) (108.29ms elapsed) ***
 
 
 **** Processor usage ****
 
-E-Cluster HW active frequency: 2064 MHz
-E-Cluster HW active residency: 100.00% (600 MHz:   0% 972 MHz:   0% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz: 100%)
-E-Cluster idle residency:   0.00%
-CPU 0 frequency: 2064 MHz
-CPU 0 active residency:  24.20% (600 MHz:   0% 972 MHz:   0% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  24%)
-CPU 0 idle residency:  75.80%
-CPU 1 frequency: 2064 MHz
-CPU 1 active residency:  20.60% (600 MHz:   0% 972 MHz:   0% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  21%)
-CPU 1 idle residency:  79.40%
-CPU 2 frequency: 2064 MHz
-CPU 2 active residency:  42.59% (600 MHz:   0% 972 MHz:   0% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  43%)
-CPU 2 idle residency:  57.41%
-CPU 3 frequency: 2064 MHz
-CPU 3 active residency:  60.68% (600 MHz:   0% 972 MHz:   0% 1332 MHz:   0% 1704 MHz:   0% 2064 MHz:  61%)
-CPU 3 idle residency:  39.32%
+E-Cluster HW active frequency: 1312 MHz
+E-Cluster HW active residency:  99.05% (600 MHz:   0% 972 MHz:  57% 1332 MHz: 7.3% 1704 MHz:  20% 2064 MHz:  15%)
+E-Cluster idle residency:   0.95%
+CPU 0 frequency: 1410 MHz
+CPU 0 active residency:  53.20% (600 MHz:   0% 972 MHz:  22% 1332 MHz: 6.6% 1704 MHz:  15% 2064 MHz: 8.8%)
+CPU 0 idle residency:  46.80%
+CPU 1 frequency: 1362 MHz
+CPU 1 active residency:  64.03% (600 MHz:   0% 972 MHz:  31% 1332 MHz: 6.5% 1704 MHz:  18% 2064 MHz: 8.7%)
+CPU 1 idle residency:  35.97%
+CPU 2 frequency: 1375 MHz
+CPU 2 active residency:  60.82% (600 MHz:   0% 972 MHz:  29% 1332 MHz: 6.3% 1704 MHz:  15% 2064 MHz:  10%)
+CPU 2 idle residency:  39.18%
+CPU 3 frequency: 1436 MHz
+CPU 3 active residency:  49.49% (600 MHz:   0% 972 MHz:  19% 1332 MHz: 6.3% 1704 MHz:  16% 2064 MHz: 8.3%)
+CPU 3 idle residency:  50.51%
 
-P-Cluster HW active frequency: 3164 MHz
-P-Cluster HW active residency:  98.95% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz: 5.5% 3096 MHz:  26% 3144 MHz:   0% 3204 MHz:  69%)
-P-Cluster idle residency:   1.05%
-CPU 4 frequency: 3204 MHz
-CPU 4 active residency:  75.10% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  75%)
-CPU 4 idle residency:  24.90%
-CPU 5 frequency: 3204 MHz
-CPU 5 active residency:  32.39% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  32%)
-CPU 5 idle residency:  67.61%
-CPU 6 frequency: 3204 MHz
-CPU 6 active residency:  18.76% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:  19%)
-CPU 6 idle residency:  81.24%
-CPU 7 frequency: 3204 MHz
-CPU 7 active residency:   5.19% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz: 5.2%)
-CPU 7 idle residency:  94.81%
+P-Cluster HW active frequency: 690 MHz
+P-Cluster HW active residency:   6.03% (600 MHz:  77% 828 MHz: 6.6% 1056 MHz:  16% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+P-Cluster idle residency:  93.97%
+CPU 4 frequency: 1020 MHz
+CPU 4 active residency:   4.46% (600 MHz: .10% 828 MHz: .50% 1056 MHz: 3.9% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 4 idle residency:  95.54%
+CPU 5 frequency: 781 MHz
+CPU 5 active residency:   0.39% (600 MHz: .17% 828 MHz: .13% 1056 MHz: .09% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 5 idle residency:  99.61%
+CPU 6 frequency: 928 MHz
+CPU 6 active residency:   0.51% (600 MHz:   0% 828 MHz: .28% 1056 MHz: .22% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 6 idle residency:  99.49%
+CPU 7 frequency: 668 MHz
+CPU 7 active residency:   0.07% (600 MHz: .05% 828 MHz: .01% 1056 MHz: .01% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 idle residency:  99.93%
 
-CPU Power: 5381 mW
+CPU Power: 295 mW
+GPU Power: 9 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 305 mW
+
+
+*** Sampled system activity (Tue Feb 27 17:31:32 2024 +0100) (110.15ms elapsed) ***
+
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 1129 MHz
+E-Cluster HW active residency:  99.31% (600 MHz:   0% 972 MHz:  67% 1332 MHz:  22% 1704 MHz:  11% 2064 MHz:   0%)
+E-Cluster idle residency:   0.69%
+CPU 0 frequency: 1160 MHz
+CPU 0 active residency:  46.66% (600 MHz:   0% 972 MHz:  29% 1332 MHz:  11% 1704 MHz: 6.6% 2064 MHz:   0%)
+CPU 0 idle residency:  53.34%
+CPU 1 frequency: 1148 MHz
+CPU 1 active residency:  35.62% (600 MHz:   0% 972 MHz:  22% 1332 MHz: 9.0% 1704 MHz: 4.1% 2064 MHz:   0%)
+CPU 1 idle residency:  64.38%
+CPU 2 frequency: 1089 MHz
+CPU 2 active residency:  57.02% (600 MHz:   0% 972 MHz:  45% 1332 MHz: 6.4% 1704 MHz: 6.0% 2064 MHz:   0%)
+CPU 2 idle residency:  42.98%
+CPU 3 frequency: 1120 MHz
+CPU 3 active residency:  44.10% (600 MHz:   0% 972 MHz:  29% 1332 MHz:  11% 1704 MHz: 3.3% 2064 MHz:   0%)
+CPU 3 idle residency:  55.90%
+
+P-Cluster HW active frequency: 600 MHz
+P-Cluster HW active residency:   0.07% (600 MHz: 100% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+P-Cluster idle residency:  99.93%
+CPU 4 frequency: 600 MHz
+CPU 4 active residency:   0.04% (600 MHz: .04% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 4 idle residency:  99.96%
+CPU 5 frequency: 600 MHz
+CPU 5 active residency:   0.05% (600 MHz: .05% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 5 idle residency:  99.95%
+CPU 6 frequency: 0 MHz
+CPU 6 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 6 idle residency: 100.00%
+CPU 7 frequency: 0 MHz
+CPU 7 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 154 mW
+GPU Power: 9 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 163 mW
+
+
+*** Sampled system activity (Tue Feb 27 17:31:32 2024 +0100) (109.78ms elapsed) ***
+
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 1133 MHz
+E-Cluster HW active residency:  99.37% (600 MHz:   0% 972 MHz:  69% 1332 MHz:  18% 1704 MHz:  13% 2064 MHz:   0%)
+E-Cluster idle residency:   0.63%
+CPU 0 frequency: 1125 MHz
+CPU 0 active residency:  44.89% (600 MHz:   0% 972 MHz:  31% 1332 MHz: 9.8% 1704 MHz: 4.6% 2064 MHz:   0%)
+CPU 0 idle residency:  55.11%
+CPU 1 frequency: 1114 MHz
+CPU 1 active residency:  54.23% (600 MHz:   0% 972 MHz:  38% 1332 MHz:  11% 1704 MHz: 5.3% 2064 MHz:   0%)
+CPU 1 idle residency:  45.77%
+CPU 2 frequency: 1080 MHz
+CPU 2 active residency:  51.10% (600 MHz:   0% 972 MHz:  39% 1332 MHz: 8.6% 1704 MHz: 3.3% 2064 MHz:   0%)
+CPU 2 idle residency:  48.90%
+CPU 3 frequency: 1198 MHz
+CPU 3 active residency:  50.00% (600 MHz:   0% 972 MHz:  31% 1332 MHz: 7.7% 1704 MHz:  12% 2064 MHz:   0%)
+CPU 3 idle residency:  50.00%
+
+P-Cluster HW active frequency: 600 MHz
+P-Cluster HW active residency:   0.03% (600 MHz: 100% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+P-Cluster idle residency:  99.97%
+CPU 4 frequency: 0 MHz
+CPU 4 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 4 idle residency: 100.00%
+CPU 5 frequency: 0 MHz
+CPU 5 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 5 idle residency: 100.00%
+CPU 6 frequency: 0 MHz
+CPU 6 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 6 idle residency: 100.00%
+CPU 7 frequency: 0 MHz
+CPU 7 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 164 mW
+GPU Power: 9 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 173 mW
+
+
+*** Sampled system activity (Tue Feb 27 17:31:32 2024 +0100) (109.61ms elapsed) ***
+
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 1622 MHz
+E-Cluster HW active residency:  91.70% (600 MHz:   0% 972 MHz:  15% 1332 MHz:  23% 1704 MHz:  32% 2064 MHz:  30%)
+E-Cluster idle residency:   8.30%
+CPU 0 frequency: 1627 MHz
+CPU 0 active residency:  63.06% (600 MHz:   0% 972 MHz: 8.3% 1332 MHz:  16% 1704 MHz:  20% 2064 MHz:  20%)
+CPU 0 idle residency:  36.94%
+CPU 1 frequency: 1584 MHz
+CPU 1 active residency:  62.39% (600 MHz:   0% 972 MHz: 9.0% 1332 MHz:  19% 1704 MHz:  18% 2064 MHz:  17%)
+CPU 1 idle residency:  37.61%
+CPU 2 frequency: 1632 MHz
+CPU 2 active residency:  58.39% (600 MHz:   0% 972 MHz: 7.7% 1332 MHz:  16% 1704 MHz:  14% 2064 MHz:  21%)
+CPU 2 idle residency:  41.61%
+CPU 3 frequency: 1611 MHz
+CPU 3 active residency:  56.32% (600 MHz:   0% 972 MHz: 8.0% 1332 MHz:  16% 1704 MHz:  14% 2064 MHz:  18%)
+CPU 3 idle residency:  43.68%
+
+P-Cluster HW active frequency: 600 MHz
+P-Cluster HW active residency:   0.04% (600 MHz: 100% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+P-Cluster idle residency:  99.96%
+CPU 4 frequency: 600 MHz
+CPU 4 active residency:   0.04% (600 MHz: .04% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 4 idle residency:  99.96%
+CPU 5 frequency: 0 MHz
+CPU 5 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 5 idle residency: 100.00%
+CPU 6 frequency: 0 MHz
+CPU 6 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 6 idle residency: 100.00%
+CPU 7 frequency: 600 MHz
+CPU 7 active residency:   0.04% (600 MHz: .04% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 idle residency:  99.96%
+
+CPU Power: 328 mW
+GPU Power: 9 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 338 mW
+
+
+*** Sampled system activity (Tue Feb 27 17:31:32 2024 +0100) (109.14ms elapsed) ***
+
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 1202 MHz
+E-Cluster HW active residency:  29.25% (600 MHz:   0% 972 MHz:  72% 1332 MHz: 2.1% 1704 MHz:  17% 2064 MHz: 9.0%)
+E-Cluster idle residency:  70.75%
+CPU 0 frequency: 1587 MHz
+CPU 0 active residency:  14.75% (600 MHz:   0% 972 MHz: 4.2% 1332 MHz: .24% 1704 MHz: 6.3% 2064 MHz: 4.0%)
+CPU 0 idle residency:  85.25%
+CPU 1 frequency: 1555 MHz
+CPU 1 active residency:  14.97% (600 MHz:   0% 972 MHz: 4.4% 1332 MHz: .08% 1704 MHz: 7.6% 2064 MHz: 2.9%)
+CPU 1 idle residency:  85.03%
+CPU 2 frequency: 1713 MHz
+CPU 2 active residency:  12.41% (600 MHz:   0% 972 MHz: .13% 1332 MHz: 1.5% 1704 MHz: 8.7% 2064 MHz: 2.1%)
+CPU 2 idle residency:  87.59%
+CPU 3 frequency: 1548 MHz
+CPU 3 active residency:  10.91% (600 MHz:   0% 972 MHz: 3.6% 1332 MHz: .00% 1704 MHz: 4.7% 2064 MHz: 2.6%)
+CPU 3 idle residency:  89.09%
+
+P-Cluster HW active frequency: 600 MHz
+P-Cluster HW active residency:   0.24% (600 MHz: 100% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+P-Cluster idle residency:  99.76%
+CPU 4 frequency: 0 MHz
+CPU 4 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 4 idle residency: 100.00%
+CPU 5 frequency: 0 MHz
+CPU 5 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 5 idle residency: 100.00%
+CPU 6 frequency: 0 MHz
+CPU 6 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 6 idle residency: 100.00%
+CPU 7 frequency: 0 MHz
+CPU 7 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 64 mW
 GPU Power: 0 mW
 ANE Power: 0 mW
-Combined Power (CPU + GPU + ANE): 5381 mW
+Combined Power (CPU + GPU + ANE): 64 mW
+
+
+*** Sampled system activity (Tue Feb 27 17:31:33 2024 +0100) (112.41ms elapsed) ***
+
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 1435 MHz
+E-Cluster HW active residency:  25.87% (600 MHz:   0% 972 MHz:  50% 1332 MHz: 7.4% 1704 MHz: 7.1% 2064 MHz:  35%)
+E-Cluster idle residency:  74.13%
+CPU 0 frequency: 1477 MHz
+CPU 0 active residency:  15.04% (600 MHz:   0% 972 MHz: 4.7% 1332 MHz: 4.8% 1704 MHz: .42% 2064 MHz: 5.1%)
+CPU 0 idle residency:  84.96%
+CPU 1 frequency: 1768 MHz
+CPU 1 active residency:  12.38% (600 MHz:   0% 972 MHz: 2.3% 1332 MHz: .61% 1704 MHz: 2.0% 2064 MHz: 7.5%)
+CPU 1 idle residency:  87.62%
+CPU 2 frequency: 1660 MHz
+CPU 2 active residency:   3.94% (600 MHz:   0% 972 MHz: 1.4% 1332 MHz: .14% 1704 MHz: .01% 2064 MHz: 2.4%)
+CPU 2 idle residency:  96.06%
+CPU 3 frequency: 1739 MHz
+CPU 3 active residency:   4.64% (600 MHz:   0% 972 MHz: 1.2% 1332 MHz: .29% 1704 MHz:   0% 2064 MHz: 3.2%)
+CPU 3 idle residency:  95.36%
+
+P-Cluster HW active frequency: 1228 MHz
+P-Cluster HW active residency:  54.51% (600 MHz:  39% 828 MHz: 1.6% 1056 MHz: 8.9% 1284 MHz:  11% 1500 MHz: 8.8% 1728 MHz: 8.9% 1956 MHz: 9.9% 2184 MHz:  12% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+P-Cluster idle residency:  45.49%
+CPU 4 frequency: 1459 MHz
+CPU 4 active residency:  32.81% (600 MHz: .12% 828 MHz: 1.5% 1056 MHz: 9.0% 1284 MHz: 9.7% 1500 MHz: 1.6% 1728 MHz: .76% 1956 MHz: 5.8% 2184 MHz: 4.4% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 4 idle residency:  67.19%
+CPU 5 frequency: 1653 MHz
+CPU 5 active residency:  15.55% (600 MHz:   0% 828 MHz: .30% 1056 MHz:   0% 1284 MHz: 2.7% 1500 MHz: 6.6% 1728 MHz: .74% 1956 MHz: 2.3% 2184 MHz: 2.8% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 5 idle residency:  84.45%
+CPU 6 frequency: 1800 MHz
+CPU 6 active residency:  17.23% (600 MHz:   0% 828 MHz: .01% 1056 MHz:   0% 1284 MHz: .13% 1500 MHz: 2.7% 1728 MHz: 8.6% 1956 MHz: 3.3% 2184 MHz: 2.6% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 6 idle residency:  82.77%
+CPU 7 frequency: 1784 MHz
+CPU 7 active residency:   2.25% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz: .01% 1500 MHz: .85% 1728 MHz: .45% 1956 MHz: .48% 2184 MHz: .47% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 idle residency:  97.75%
+
+CPU Power: 658 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 658 mW
+
+
+*** Sampled system activity (Tue Feb 27 17:31:33 2024 +0100) (105.67ms elapsed) ***
+
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 1007 MHz
+E-Cluster HW active residency:  36.33% (600 MHz:   0% 972 MHz:  90% 1332 MHz: 9.8% 1704 MHz:   0% 2064 MHz:   0%)
+E-Cluster idle residency:  63.67%
+CPU 0 frequency: 1026 MHz
+CPU 0 active residency:  20.92% (600 MHz:   0% 972 MHz:  18% 1332 MHz: 3.1% 1704 MHz:   0% 2064 MHz:   0%)
+CPU 0 idle residency:  79.08%
+CPU 1 frequency: 1012 MHz
+CPU 1 active residency:  21.76% (600 MHz:   0% 972 MHz:  19% 1332 MHz: 2.4% 1704 MHz:   0% 2064 MHz:   0%)
+CPU 1 idle residency:  78.24%
+CPU 2 frequency: 1052 MHz
+CPU 2 active residency:  14.04% (600 MHz:   0% 972 MHz:  11% 1332 MHz: 3.1% 1704 MHz:   0% 2064 MHz:   0%)
+CPU 2 idle residency:  85.96%
+CPU 3 frequency: 1030 MHz
+CPU 3 active residency:  16.76% (600 MHz:   0% 972 MHz:  14% 1332 MHz: 2.7% 1704 MHz:   0% 2064 MHz:   0%)
+CPU 3 idle residency:  83.24%
+
+P-Cluster HW active frequency: 761 MHz
+P-Cluster HW active residency:   3.87% (600 MHz:  83% 828 MHz: .67% 1056 MHz: 6.3% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz: 9.6% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+P-Cluster idle residency:  96.13%
+CPU 4 frequency: 1527 MHz
+CPU 4 active residency:   3.99% (600 MHz: .13% 828 MHz: 1.1% 1056 MHz: .31% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz: 2.4% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 4 idle residency:  96.01%
+CPU 5 frequency: 1056 MHz
+CPU 5 active residency:   0.01% (600 MHz:   0% 828 MHz:   0% 1056 MHz: .01% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 5 idle residency:  99.99%
+CPU 6 frequency: 600 MHz
+CPU 6 active residency:   0.04% (600 MHz: .04% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 6 idle residency:  99.96%
+CPU 7 frequency: 0 MHz
+CPU 7 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 76 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 76 mW

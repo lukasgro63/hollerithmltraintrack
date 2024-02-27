@@ -43,7 +43,7 @@ tracker_interface = MLModelTrackerInterface()
 
 # Track the model training with the processed training data
 # TODO: Replace "custom_file_name.csv" with the desired filename
-with tracker_interface.track_training(model, X_train_processed, y_train, preprocessor, filename="custom_file_name.csv"):
+with tracker_interface.track_training(model, X_train_processed, y_train, num_features=5, cat_features=6, filename="custom_file_name.csv"):
     model.fit(X_train_processed, y_train)
 
 # Retrieve and print the tracked training information

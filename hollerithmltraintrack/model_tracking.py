@@ -24,7 +24,7 @@ class ModelTracker:
 
 
     @contextmanager
-    def track_model(self, model, X_train, y_train, preprocessor=None, num_features_provided=None, cat_features_provided=None):
+    def track_model(self, model, X_train, y_train, preprocessor=None, num_features=None, cat_features=None):
         """
         Context manager that tracks the model training process, including timing and capturing model parameters.
         Falls back to automatic feature analysis if no preprocessor info is provided.
@@ -40,9 +40,9 @@ class ModelTracker:
             emissions_data = self.energy_tracker.stop_and_extract_data()
             training_duration = end_time - start_time
 
-            if num_features_provided is not None and cat_features_provided is not None:
-                numeric_features_count = num_features_provided
-                categorical_features_count = cat_features_provided
+            if num_features is not None and cat_features is not None:
+                numeric_features_count = num_features
+                categorical_features_count = cat_features
             elif preprocessor:
                 numeric_features_count, categorical_features_count = self.feature_analyzer.analyze_features_with_preprocessor(preprocessor)
             else:

@@ -13,7 +13,7 @@ class MLModelTrackerInterface:
         self.default_filename = default_filename
 
     @contextmanager
-    def track_training(self, model, X_train, y_train, preprocessor, filename=None):
+    def track_training(self, model, X_train, y_train, preprocessor=None, num_features=None,  cat_features=None, filename=None):
         """
         Context manager that starts the tracking process, captures the tracking result,
         and automatically exports it to a CSV file.
@@ -21,7 +21,7 @@ class MLModelTrackerInterface:
         csv_filename = filename if filename else self.default_filename
         self.csv_exporter = CSVExporter(csv_filename)
 
-        with self.model_tracker.track_model(model, X_train, y_train, preprocessor) as _:
+        with self.model_tracker.track_model(model, X_train, y_train, preprocessor, num_features, cat_features) as _:
             yield
 
         tracked_info = self.model_tracker.get_tracked_info()
